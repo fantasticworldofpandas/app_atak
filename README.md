@@ -1,6 +1,6 @@
 # App de Pesquisa Atak
 
-![App](projeto-atak/app_atak/lib/assets/app_atak.png)
+![App](app_atak/lib/assets/app_atak.png)
 
 
 Este é um aplicativo simples que permite realizar pesquisas e exibi os resultados em uma interface. O aplicativo é baseado em Flutter.
@@ -10,7 +10,7 @@ Este é um aplicativo simples que permite realizar pesquisas e exibi os resultad
 1. Clone o repositório para o seu ambiente local:
 
    ```bash
-   git clone 
+   git clone https://github.com/fantasticworldofpandas/app_atak
    ```
 
 2. No caminho `projeto-atak/app_atak/lib/assets` execute o arquivo `api-route.py`
