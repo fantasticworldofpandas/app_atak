@@ -1,8 +1,5 @@
 # App de Pesquisa Atak
-
-![App](app_atak/lib/assets/app_atak.png)
-
-
+   
 Este é um aplicativo simples que permite realizar pesquisas e exibi os resultados em uma interface. O aplicativo é baseado em Flutter.
 
 ## Como Executar a aplicação
