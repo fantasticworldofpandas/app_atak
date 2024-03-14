@@ -14,6 +14,7 @@ Este é um aplicativo simples que permite realizar pesquisas e exibi os resultad
 
 ### Esse módulo requer a instalação das libs:
 
+- Crie um ambiente virtual para instalar as libs com pip usando `virtualenv .venv` e acesse usando `source .venv/bin/activate`
 - Flask: use `pip install flask`.
 - BeautifulSoup: use `pip install beautifulsoup4`.
 - Requests: use `pip install requests`.
@@ -36,7 +37,7 @@ Este é um aplicativo simples que permite realizar pesquisas e exibi os resultad
 - `providers/`: Armazena os provedores de dados (models).
 - `screens/`: Contém as telas do aplicativo.
 - `widgets/`: Armazena os widgets reutilizáveis.
--  Otilizei a lib `provider` para gerenciamento de estado.
+-  Utilizei a lib `provider` para gerenciamento de estado.
 
 ### Autor
 ---
