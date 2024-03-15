@@ -56,7 +56,8 @@ class ResultContainerState extends State<ResultContainer> {
                 if (searchProvider.link.isNotEmpty)
                   InkWell(
                     onTap: () async {
-                      await launch(searchProvider.link);
+                      String url = searchProvider.link.startsWith('http') ? searchProvider.link : 'http://${searchProvider.link}';
+                      await launchUrl(Uri.parse(url));
                     },
                     child: Text(
                       searchProvider.link,
