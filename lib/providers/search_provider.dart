@@ -19,7 +19,7 @@ class SearchProvider extends ChangeNotifier {
       notifyListeners();
 
       var dio = Dio();
-      var response = await dio.get('http://127.0.0.1:5000/api/pesquisa/$_searchText');
+      var response = await dio.get('http://172.20.3.136:5000/api/pesquisa/$_searchText');
 
       print('resposta da API: $response');
 
