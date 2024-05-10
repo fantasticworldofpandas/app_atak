@@ -34,7 +34,16 @@ class ResultContainerState extends State<ResultContainer> {
               border: Border.all(),
               borderRadius: BorderRadius.circular(8.0),
             ),
-            child: const CircularProgressIndicator(),
+            child: const SizedBox(
+              height: 36,
+              width: 36,
+              child: Center(
+                child: CircularProgressIndicator(
+                  semanticsLabel: 'Pesquisando...',
+                  strokeWidth: 3.6,
+                ),
+              ),
+            ),
           );
         } else {
           return Container(
