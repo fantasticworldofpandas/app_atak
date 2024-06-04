@@ -47,7 +47,7 @@ class ResultContainerState extends State<ResultContainer> {
           return Container(
             padding: const EdgeInsets.all(16.0),
             decoration: BoxDecoration(
-              border: Border.all(color: Colors.blue),
+              border: Border.all(color: Colors.blueGrey),
               borderRadius: BorderRadius.circular(8.0),
             ),
             child: Column(
