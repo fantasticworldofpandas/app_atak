@@ -1,10 +1,11 @@
-import 'package:app_atak/providers/search_provider.dart';
+import '../commons_dependencies/lib/search_provider.dart';
 import 'package:flutter_test/flutter_test.dart';
-
 
 void main() {
   group('SearchProvider Tests', () {
-    test('SearchProvider should perform search successfully with unknown title and link', () async {
+    test(
+        'SearchProvider should perform search successfully with unknown title and link',
+        () async {
       var searchProvider = SearchProvider();
       await searchProvider.search();
 
