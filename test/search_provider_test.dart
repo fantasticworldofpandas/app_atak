@@ -1,4 +1,5 @@
-import '../commons_dependencies/lib/search_provider.dart';
+
+import 'package:app_atak/modules/common/commons_dependencies/lib/search_provider.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
